@@ -3,104 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        section {
-            background-color: #fff;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .project-tile {
-            background-color: #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 10px;
-            width: 200px;
-            text-align: center;
-            transition: background-color 0.3s;
-        }
-        .project-tile:hover {
-            background-color: #ccc;
-        }
-        .project-tile a {
-            text-decoration: none;
-            color: #333;
-        }
-    </style>
+    <title>Your Name - Web Designer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Your Title / Profession</p>
-    </header>
-
-    <div class="container">
-        <section id="blog">
-            <h2>Blog</h2>
-            <article>
-                <h3>Blog Post Title</h3>
-                <p>Date: YYYY-MM-DD</p>
-                <p>Preview of your blog post...</p>
-                <a href="#">Read more</a>
-            </article>
-            <!-- Add more blog posts as needed -->
-        </section>
-
-        <section id="experience">
-            <h2>Work Experience</h2>
+        <div class="logo">Your Name</div>
+        <nav>
             <ul>
-                <li>
-                    <h3>Job Title - Company Name</h3>
-                    <p>Duration: Start Date - End Date</p>
-                    <p>Description of your role and achievements</p>
-                </li>
-                <!-- Add more work experiences as needed -->
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project-tile">
-                    <a href="project1-url">
-                        <h3>Project 1</h3>
-                        <p>Short description of Project 1</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="project2-url">
-                        <h3>Project 2</h3>
-                        <p>Short description of Project 2</p>
-                    </a>
-                </div>
-                <!-- Add more project tiles as needed -->
-            </div>
-        </section>
-    </div>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>Hi,<br>I'm <span class="highlight">Your Name</span><br>Web Designer</h1>
+            <button class="cta">Contact</button>
+        </div>
+        <div class="profile">
+            <div class="profile-image"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="icon linkedin">LinkedIn</a>
+            <a href="#" class="icon behance">Behance</a>
+            <a href="#" class="icon github">GitHub</a>
+        </div>
+    </footer>
 </body>
 </html>
